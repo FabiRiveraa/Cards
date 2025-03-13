@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+    
+body {
+    background-color: rgb(73, 118, 202);
+    }
+
+.card {
+    margin: 20px;
+    width: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 5px 10px #c225ba;
+    font-family:  "PT serif";
+}
+
+.card img {
+    width: 100%;
+
+}
+.card h1 {
+    text-align: center;
+    color: #6e0f61;
+    font-size: 40px;
+}
+
+.card h2 {
+ font-size: 28px;
+}
+
+.card content {
+    padding: 0px 20px 0px 20px
