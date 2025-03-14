@@ -2,7 +2,7 @@
 
     
 body {
-    background-color: rgb(73, 118, 202);
+    background-color: rgb(205, 223, 138);
     }
 
 .card {
@@ -10,7 +10,7 @@ body {
     width: 300px;
     border-radius: 20px;
     overflow: hidden;
-    box-shadow: 0px 5px 10px #c225ba;
+    box-shadow: 0px 5px 10px #5645f0;
     font-family:  "PT serif";
 }
 
@@ -30,3 +30,23 @@ body {
 
 .card content {
     padding: 0px 20px 0px 20px
+}
+
+.card:hover{
+    background-color: rgb(45, 180, 124);
+    transform: scale(1.05);
+}
+
+.card .footer{
+    padding: 25px;
+    text-align: center;
+}
+
+.card a {
+    text-decoration: none;
+}
+
+.tarjeta {
+    display: flex;
+    justify-content: center;
+}
